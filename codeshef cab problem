@@ -1,0 +1,28 @@
+#include<stdio.h>
+
+ int main()
+ { 
+     int t;
+     scanf("%d",&t);
+     while(t--)
+    {
+    int X,Y;
+    printf("\n");
+    scanf("%d",&X);
+    
+    scanf("%d\n",&Y);
+    
+    if(X<Y)
+    
+        printf("FIRST");
+    
+    else if(Y<X)
+     
+         printf("SECOND");   
+     else
+     
+         printf("ANY");     
+ } 
+	return 0;
+}
+
